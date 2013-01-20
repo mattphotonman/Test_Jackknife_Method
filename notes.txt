@@ -1,0 +1,9 @@
+What I want to test for the jackknife error, in order to determine how well it estimates the actual error of the sample mean, is
+
+1. a) That the ensemble average (average over N as N->infinity) of the jackknife error is equal to the actual error of the sample mean.
+
+b) If not, then it is biased, but it should at least equal the actual error in the limit n->inifinity as well.
+
+2. If it fails 1a then look at the error on the jackknife error and see if the actual error of the sample mean is within this error of the jackknife error.
+
+3. Check that the error on the jackknife error is "small" (for e.g. less than 50%), because otherwise it is pretty useless even if the ensemble average is correct.
