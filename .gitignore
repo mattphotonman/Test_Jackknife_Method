@@ -1,3 +1,9 @@
+jackknife
+histograms
+
+# Auto-save files
+*~
+
 # Compiled Object files
 *.slo
 *.lo
